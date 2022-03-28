@@ -1,15 +1,15 @@
-package wgk20202091105lab3;
+package wgk20202091105lab4;
 
-public class SimpleGeometricObject {
+public abstract class GeometricObject {
     private String color = "white";
     private boolean filled;
     private java.util.Date dateCreated;
 
-    public SimpleGeometricObject(){
-           dateCreated = new java.util.Date();
+    protected GeometricObject(){
+        dateCreated = new java.util.Date();
     }
 
-    public SimpleGeometricObject(String color, boolean filled){
+    protected GeometricObject(String color, boolean filled){
         dateCreated = new java.util.Date();
         this.color = color;
         this.filled = filled;
@@ -35,7 +35,12 @@ public class SimpleGeometricObject {
         return dateCreated;
     }
 
+    @Override
     public String toString(){
         return "created on " + dateCreated + "\ncolor:" + color + " and filled:" + filled;
     }
+
+    public abstract double getArea();
+
+    public abstract double getPerimeter();
 }

@@ -5,7 +5,7 @@ import static java.lang.Math.sqrt;
 import wgk20202091105lab3.SimpleGeometricObject;
 
 public class MyTriangle extends SimpleGeometricObject {
-    private final MyPoint vertex[] = new MyPoint[3];
+    private final MyPoint[] vertex = new MyPoint[3];
 
     public MyTriangle(MyPoint v1, MyPoint v2, MyPoint v3){
         vertex[0] = v1;
@@ -14,9 +14,9 @@ public class MyTriangle extends SimpleGeometricObject {
     }
 
     public MyTriangle(){
-        vertex[0] = new MyPoint(1,1);
-        vertex[1] = new MyPoint(2,2);
-        vertex[2] = new MyPoint(1.5,3);
+        vertex[0] = new MyPoint(3,3);
+        vertex[1] = new MyPoint(2,0);
+        vertex[2] = new MyPoint(4,0);
     }
 
     public double getPerimeter(){
@@ -36,8 +36,8 @@ public class MyTriangle extends SimpleGeometricObject {
     }
 
     public String toString(){
-        return "第一个顶点坐标:"+"("+vertex[0].getX()+","+vertex[0].getY()+")"+"\n"+
-                "第二个顶点坐标:"+"("+vertex[1].getX()+","+vertex[1].getY()+")"+"\n"+
+        return  "第一个顶点坐标:"+"("+vertex[0].getX()+","+vertex[0].getY()+")" + "\n" +
+                "第二个顶点坐标:"+"("+vertex[1].getX()+","+vertex[1].getY()+")" + "\n" +
                 "第三个顶点坐标:"+"("+vertex[2].getX()+","+vertex[2].getY()+")" + "\n" + super.toString();
     }
 }
