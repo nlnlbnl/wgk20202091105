@@ -1,5 +1,7 @@
 package wgk20202091105lab2;
 
+import org.jetbrains.annotations.NotNull;
+
 import static java.lang.Math.sqrt;
 
 public class MyPoint {
@@ -32,7 +34,7 @@ public class MyPoint {
         this.y = y;
     }
 
-    public double distance(MyPoint other) {
+    public double distance(@NotNull MyPoint other) {
         return sqrt((this.x - other.getX())*(this.x - other.getX()) +(this.y - other.getY())*(this.y - other.getY()));
     }
 }
