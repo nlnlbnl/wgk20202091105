@@ -1,9 +1,9 @@
 package wgk20202091105lab4;
 
+import org.jetbrains.annotations.NotNull;
 import wgk20202091105lab2.MyPoint;
 
 import java.util.Scanner;
-
 import static java.lang.Math.sqrt;
 import static java.lang.String.format;
 
@@ -22,6 +22,7 @@ public class MyTriangle extends GeometricObject implements Comparable<MyTriangle
         vertex[2] = new MyPoint(4,0);
     }
 
+    @Override
     public double getPerimeter(){
         double s1 = vertex[0].distance(vertex[1]);
         double s2 = vertex[0].distance(vertex[2]);
@@ -29,6 +30,7 @@ public class MyTriangle extends GeometricObject implements Comparable<MyTriangle
         return s1 + s2 + s3;
     }
 
+    @Override
     public double getArea(){
         double s = getPerimeter();
         double halfOfs = 0.5 * s;
@@ -38,6 +40,7 @@ public class MyTriangle extends GeometricObject implements Comparable<MyTriangle
         return sqrt(halfOfs*(halfOfs-s1)*(halfOfs-s2)*(halfOfs-s3));
     }
 
+    @Override
     public String toString(){
         return  "该三角形的周长："+format("%.2f",getPerimeter())+"\n"+"该三角形的面积：" + format("%.2f",getArea())+"\n"+
                 "第一个顶点坐标:"+"("+vertex[0].getX()+","+vertex[0].getY()+")" + "\n" +
@@ -62,7 +65,8 @@ public class MyTriangle extends GeometricObject implements Comparable<MyTriangle
         return mytriangle;
     }
 
-    public int compareTo(MyTriangle other) {
+    @Override
+    public int compareTo(@NotNull MyTriangle other) {
         return Double.compare(this.getPerimeter(), other.getPerimeter());
     }
 }

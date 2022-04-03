@@ -35,6 +35,7 @@ public class MyTriangle extends SimpleGeometricObject {
         return sqrt(halfOfs*(halfOfs-s1)*(halfOfs-s2)*(halfOfs-s3));
     }
 
+    @Override
     public String toString(){
         return  "第一个顶点坐标:"+"("+vertex[0].getX()+","+vertex[0].getY()+")" + "\n" +
                 "第二个顶点坐标:"+"("+vertex[1].getX()+","+vertex[1].getY()+")" + "\n" +

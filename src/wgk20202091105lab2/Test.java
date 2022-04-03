@@ -15,7 +15,6 @@ public class Test {
             System.out.printf("请输入第%d个顶点的y坐标\n",i);
             vertex[i-1].setY(in.nextDouble());
         }
-        //MyTriangle mytriangle = new MyTriangle();
         MyTriangle mytriangle = new MyTriangle(vertex[0],vertex[1],vertex[2]);
         System.out.println("请输入该三角形的颜色：");
         mytriangle.setColor(in.next());
@@ -23,6 +22,6 @@ public class Test {
         mytriangle.setFilled(in.nextBoolean());
         System.out.println("该三角形的面积："+format("%.2f",mytriangle.getArea()));
         System.out.println("该三角形的周长："+format("%.2f",mytriangle.getPerimeter()));
-        System.out.println(mytriangle.toString());
+        mytriangle.toString();
     }
 }
