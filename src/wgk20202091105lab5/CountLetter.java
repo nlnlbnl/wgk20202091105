@@ -2,9 +2,12 @@ package wgk20202091105lab5;
 
 import org.jetbrains.annotations.NotNull;
 
-public class countLetter {
-    //创建26个空间大小的数组，存放26个字母
+/**
+ * @author wgk20202091105
+ */
+public class CountLetter {
     static int[] nums = new int[26];
+
     public static void count(@NotNull String str) {
         String str1 = str.toLowerCase();
         for (char i : str1.toCharArray()) {
@@ -15,6 +18,7 @@ public class countLetter {
             }
         }
     }
+
     public static void printcount(){
         for(int i = 0; i< nums.length; i++){
             if(nums[i] != 0){
