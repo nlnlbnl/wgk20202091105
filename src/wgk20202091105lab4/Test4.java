@@ -1,5 +1,8 @@
 package wgk20202091105lab4;
 
+/**
+ * @author wgk20202091105
+ */
 public class Test4 {
     public static void main(String[] args) {
         MyTriangle triangle = new MyTriangle();
