@@ -3,6 +3,7 @@ package wgk20202091105lab4;
 import org.jetbrains.annotations.NotNull;
 import wgk20202091105lab2.MyPoint;
 
+import java.util.Comparator;
 import java.util.Scanner;
 import static java.lang.Math.sqrt;
 import static java.lang.String.format;
@@ -10,7 +11,7 @@ import static java.lang.String.format;
 /**
  * @author wgk20202091105
  */
-public class MyTriangle extends GeometricObject implements Comparable<MyTriangle> {
+public class MyTriangle extends GeometricObject implements Comparable<MyTriangle>{
     private final MyPoint[] vertex = new MyPoint[3];
 
     public MyTriangle(MyPoint v1, MyPoint v2, MyPoint v3) {
