@@ -14,14 +14,14 @@ public class Test4 {
         MyTriangle other = triangle.printTriangles();
 
         if(mytriangle.compareTo(other) > 0){
-            mytriangle.printTriangles();
+            System.out.println(mytriangle.toString());
             System.out.println();
-            other.printTriangles();
+            System.out.println(other.toString());
         }
         else {
-            other.printTriangles();
+            System.out.println(other.toString());
             System.out.println();
-            mytriangle.printTriangles();
+            System.out.println(mytriangle.toString());
         }
     }
 }

@@ -2,6 +2,7 @@ package wgk20202091105lab2;
 
 import static java.lang.Math.sqrt;
 
+import lombok.Data;
 import wgk20202091105lab3.SimpleGeometricObject;
 
 public class MyTriangle extends SimpleGeometricObject {

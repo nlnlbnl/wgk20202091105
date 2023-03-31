@@ -3,7 +3,6 @@ package wgk20202091105lab4;
 import org.jetbrains.annotations.NotNull;
 import wgk20202091105lab2.MyPoint;
 
-import java.util.Comparator;
 import java.util.Scanner;
 import static java.lang.Math.sqrt;
 import static java.lang.String.format;
@@ -46,10 +45,12 @@ public class MyTriangle extends GeometricObject implements Comparable<MyTriangle
 
     @Override
     public String toString() {
-        return "该三角形的周长：" + format("%.2f", getPerimeter()) + "\n" + "该三角形的面积：" + format("%.2f", getArea()) + "\n" +
+        return "该三角形的周长：" + format("%.2f", getPerimeter()) + "\n" +
+                "该三角形的面积：" + format("%.2f", getArea()) + "\n" +
                 "第一个顶点坐标:" + "(" + vertex[0].getX() + "," + vertex[0].getY() + ")" + "\n" +
                 "第二个顶点坐标:" + "(" + vertex[1].getX() + "," + vertex[1].getY() + ")" + "\n" +
-                "第三个顶点坐标:" + "(" + vertex[2].getX() + "," + vertex[2].getY() + ")" + "\n" + super.toString();
+                "第三个顶点坐标:" + "(" + vertex[2].getX() + "," + vertex[2].getY() + ")" + "\n" +
+                super.toString();
     }
 
     public MyTriangle printTriangles() {

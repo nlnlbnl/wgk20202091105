@@ -22,6 +22,6 @@ public class Test {
         mytriangle.setFilled(in.nextBoolean());
         System.out.println("该三角形的面积："+format("%.2f",mytriangle.getArea()));
         System.out.println("该三角形的周长："+format("%.2f",mytriangle.getPerimeter()));
-        System.out.println(mytriangle.toString());
+        System.out.println(mytriangle);
     }
 }
