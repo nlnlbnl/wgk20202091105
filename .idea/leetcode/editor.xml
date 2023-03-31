@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="/var/folders/qf/rthd7f2528n2r9nfk0f7cjw40000gn/T/leetcode/editor/cn/[1108]IP 地址无效化.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/qf/rthd7f2528n2r9nfk0f7cjw40000gn/T/leetcode/editor/cn/doc/content/[1108]IP 地址无效化.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1108" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/qf/rthd7f2528n2r9nfk0f7cjw40000gn/T/leetcode/editor/cn/[1108]IP 地址无效化.java" />
+              <option name="titleSlug" value="defanging-an-ip-address" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/qf/rthd7f2528n2r9nfk0f7cjw40000gn/T/leetcode/editor/cn/[409]最长回文串.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/qf/rthd7f2528n2r9nfk0f7cjw40000gn/T/leetcode/editor/cn/doc/content/[409]最长回文串.md" />
+              <option name="frontendQuestionId" value="leetcode.cn409" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="/var/folders/qf/rthd7f2528n2r9nfk0f7cjw40000gn/T/leetcode/editor/cn/[409]最长回文串.java" />
+              <option name="titleSlug" value="longest-palindrome" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

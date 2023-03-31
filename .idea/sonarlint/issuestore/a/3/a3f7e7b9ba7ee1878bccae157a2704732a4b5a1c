@@ -1,0 +1,12 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷Ëÿ8¦åÅ¢¢0
+v
+java:S1210J"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(¶„Ê8»åÅ¢¢0
+s
+java:S3457<"Q%n should be used in place of \n to produce the platform-specific line separator.(ÀÑ¥ªøÿÿÿÿ8ÆåÅ¢¢0
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(ÀÑ¥ªøÿÿÿÿ8ÆåÅ¢¢0
+s
+java:S3457>"Q%n should be used in place of \n to produce the platform-specific line separator.(ÇƒÃÈıÿÿÿÿ8ÇåÅ¢¢0
+Z	java:S106>"9Replace this use of System.out or System.err by a logger.(ÇƒÃÈıÿÿÿÿ8ÇåÅ¢¢0
+Z	java:S106B"9Replace this use of System.out or System.err by a logger.(œš³Üüÿÿÿÿ8ÈåÅ¢¢0
+Z	java:S106D"9Replace this use of System.out or System.err by a logger.(êìœùÿÿÿÿ8ÈåÅ¢¢0
